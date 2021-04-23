@@ -19,7 +19,7 @@ def run():
     image_JA = Image.open('J&A.jpg')
     image_fraude = Image.open('Fraude.jpg')
 
-    st.image(image_JA,use_column_width=False)
+    st.image(image_JA,use_column_width=True)
 
     add_selectbox = st.sidebar.selectbox(
     "How would you like to predict?",
